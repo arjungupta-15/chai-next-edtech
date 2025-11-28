@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest   
         steps:
             - name: Download Source Code 
-              uses:  actions/ checkout@v4
+              uses:  actions/checkout@v4
 
             - name: Install Node.js
               uses: actions/setup-node@v4
